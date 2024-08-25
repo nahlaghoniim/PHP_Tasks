@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <div class="container">
+            <h1>Make Your Choice</h1>
+            <div class="form-container">
+                <form class="upload" action="./up.php" method="post" enctype="multipart/form-data">
+                    <label for="Upload">Select a photo to Upload:</label><br>
+                    <input type="file" name="image" id=""><br>
+                    <input class="button" type="submit" value="Save">
+                </form>
+    
+                <form class="copy" action="./COPY.PHP" method="post">
+                    <label for="image">Select a photo to Copy:</label><br>
+                    <select name="image" id="">
+                        <option value="./uploads\20578a9c839c4683d2c738b3a41071b0.jpg">CAT1</option>
+                        <option value="./uploads\c10205b40af9e555df9e995816dd2e11.jpg">CAT2</option>
+                        <option value="./uploads\d0df81846c3dbac36ef3d048eb677863.jpg">CAT3</option>
+                    </select><br>
+                    <input class="5" type="submit" value="Copy" name="Copy">
+                </form>
+                
+                    </select><br>
+                    <input class="button" type="submit" value="Delete" name="Delete">
+               
+            </div>
+        </div>
+    </body>
+</body>
+</html>
